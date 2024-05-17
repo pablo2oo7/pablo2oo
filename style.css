@@ -1,0 +1,135 @@
+body {
+   background-color: var(--cinza);
+}
+:root {
+   --fonte-titulo: "Bebas Neue", sans-serif;
+   --rosa: rgb(247, 100, 215);
+   --ouro: rgb(91, 67, 148);
+   --cinza: rgb(70, 68, 71);
+   --verde: rgb(255, 0, 242);
+   --azul-claro: rgb(255, 139, 230);
+}
+.conteudo-titulo {
+   font-family: var(--fonte-titulo);
+   text-align: center;
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: slateblue;
+}
+#campo-senha {
+   background-color: slateblue;
+   padding: 8px;
+ 
+     width: 300px;
+   font-family: var(--fonte-titulo);
+   border: none;
+   font-size: 25px;
+}
+.conteudo-senha {
+   background-color: slateblue;
+   padding: 20px;
+   border-radius: 20px;
+   margin: 50px;
+   border-bottom:8px solid purple;
+}
+#campo-senha:focus {
+   outline: none;
+}
+.secao {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.parametro-senha-botoes {
+   display: flex;
+   margin: 50px;
+}
+
+ @media screen and (min-width: 768px) {}
+ .parametro-senha__botao {
+   background-color: slateblue;
+   border: 2px solid black;
+   padding: 10px;
+   cursor: pointer;
+}
+.parametro-senha__texto {
+   padding: 10px;
+   border: 1px solid black;
+   background-color: slateblue;
+   margin: 0;
+}
+.parametro-senha__botaoesquerda {
+   padding: 10px;
+   border: 1px solid white;
+   border-radius: 10px 0px 0px 10px;
+   background-color: black;
+margin: 0; }
+
+ .parametro-senha__botaodireita {
+   padding: 10px;
+   border: 1px solid white;
+   border-radius: 0px 10px 10px 0px;
+   background-color: black;
+margin: 0; }
+.parametro-titulo {
+   font-family: var(--fonte-titulo);
+   margin: 50px;
+   color: var black;
+   font-size: 50px;
+}
+.parametro-senha-titulo {
+   font-family: var(--fonte-titulo);
+   margin: 30px;
+   text-align: center;
+   font-size: 25px;
+   color: black;
+}
+.parametro {
+ 
+     display: flex;
+}
+.parametro {
+   border: 2px solid var(--ouro);
+   border-radius: 50px;
+   margin: 50px;
+   padding: 10px;
+}
+label {
+   font-size: 25px;
+   font-family: var(--fonte-titulo);
+   font-size: 25px;
+   color: black;
+}
+.checkbox {
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+.barra {
+   background-color: rgb(10, 9, 10);
+   height: 30px;
+
+    width: 100%;
+}
+.fraca {
+   width: 25%;
+   background-color: red;
+}
+.parametro-senha-textos {
+   display: flex;
+   justify-content: space-between;
+}
+.media {
+   background-color: yellow;
+width: 50%; }
+.forte {
+   background-color: green;
+   width: 100%;
+}
+.forca {
+   height: 30px;
+   position: relative;
+   bottom: 30px;
+ 
+ 
